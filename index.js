@@ -15,9 +15,9 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 
-const botToken = process.env.BOT_TOKEN;
-const botUsername = process.env.BOT_USERNAME;
-const Reactions = splitEmojis(process.env.EMOJI_LIST);
+const botToken = process.env.7532254966:AAE2EdNqb4GeDz8H0V7p_PT-s2mZcxeRhJw;
+const botUsername = process.env.Auto_reaction_pro1_bot;
+const Reactions = splitEmojis(process.env.😍,🇧🇩);
 const RestrictedChats = getChatIds(process.env.RESTRICTED_CHATS);
 const RandomLevel = parseInt(process.env.RANDOM_LEVEL || '0', 10);
 
